@@ -111,7 +111,7 @@ const CONFIG = {
     'https://tangly1024.lemonsqueezy.com/checkout/buy/df924d66-09dc-42a4-a632-a6b0c5cc4f28',
 
   // 首页用户测评区块
-  STARTER_TESTIMONIALS_ENABLE: true, // 测评区块开关
+  STARTER_TESTIMONIALS_ENABLE: false, // 测评区块开关
   STARTER_TESTIMONIALS_TITLE: '用户反馈',
   STARTER_TESTIMONIALS_TEXT_1: '我们的用户怎么说',
   STARTER_TESTIMONIALS_TEXT_2:
@@ -261,34 +261,10 @@ const CONFIG = {
   STARTER_BRANDS_ENABLE: true, // 合作伙伴开关
   STARTER_BRANDS: [
     {
-      IMAGE: '/images/starter/brands/graygrids.svg',
-      IMAGE_WHITE: '/images/starter/brands/graygrids-white.svg',
-      URL: 'https://graygrids.com/',
-      TITLE: 'graygrids'
-    },
-    {
-      IMAGE: '/images/starter/brands/lineicons.svg',
-      IMAGE_WHITE: '/images/starter/brands/lineicons-white.svg',
-      URL: 'https://lineicons.com/',
-      TITLE: 'lineicons'
-    },
-    {
-      IMAGE: '/images/starter/brands/uideck.svg',
-      IMAGE_WHITE: '/images/starter/brands/uideck-white.svg',
-      URL: 'https://uideck.com/',
-      TITLE: 'uideck'
-    },
-    {
-      IMAGE: '/images/starter/brands/ayroui.svg',
-      IMAGE_WHITE: '/images/starter/brands/ayroui-white.svg',
-      URL: 'https://ayroui.com/',
-      TITLE: 'ayroui'
-    },
-    {
-      IMAGE: '/images/starter/brands/tailgrids.svg',
-      IMAGE_WHITE: '/images/starter/brands/tailgrids-white.svg',
-      URL: '"https://tailgrids.com/',
-      TITLE: 'tailgrids'
+      IMAGE: '',
+      IMAGE_WHITE: '',
+      URL: '',
+      TITLE: '合作聯繫 contact@sealgallery.app'
     }
   ],
 
@@ -296,52 +272,32 @@ const CONFIG = {
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
-    {
-      TITLE: '关于我们',
-      LINK_GROUP: [
-        { TITLE: '官方主页', URL: '/#home' },
-        { TITLE: '操作文档', URL: 'https://docs.tangly1024.com/about' },
-        {
-          TITLE: '帮助支持',
-          URL: 'https://docs.tangly1024.com/article/how-to-question'
-        },
-        {
-          TITLE: '合作申请',
-          URL: 'https://docs.tangly1024.com/article/my-service'
-        }
-      ]
-    },
-    {
-      TITLE: '功能特性',
-      LINK_GROUP: [
-        {
-          TITLE: '部署指南',
-          URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next'
-        },
-        {
-          TITLE: '升级指南',
-          URL: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
-        },
-        { TITLE: '最新版本', URL: 'https://docs.tangly1024.com/article/latest' }
-      ]
-    },
-    {
-      TITLE: 'Notion写作',
-      LINK_GROUP: [
-        {
-          TITLE: 'Notion开始写作',
-          URL: 'https://docs.tangly1024.com/article/start-to-write'
-        },
-        {
-          TITLE: '快捷键提升效率',
-          URL: 'https://docs.tangly1024.com/article/notion-short-key'
-        },
-        {
-          TITLE: '中国大陆使用Notion',
-          URL: 'https://docs.tangly1024.com/article/notion-faster'
-        }
-      ]
-    }
+  {
+    "TITLE": "關於我們",
+    "LINK_GROUP": [
+      {"TITLE": "首頁", "URL": "/#home"},
+      {"TITLE": "核心特性", "URL": "/#feature"},
+      {"TITLE": "價格方案", "URL": "/#pricing"},
+      {"TITLE": "常見問題", "URL": "/#faq"}
+    ]
+  },
+  {
+    "TITLE": "產品支援",
+    "LINK_GROUP": [
+      {"TITLE": "聯繫我們", "URL": "/#contact"},
+      {"TITLE": "使用教程", "URL": "/archive"},
+      {"TITLE": "隱私政策", "URL": "/privacy-policy"},
+      {"TITLE": "服務條款", "URL": "/terms-of-service"}
+    ]
+  },
+  {
+    "TITLE": "資源",
+    "LINK_GROUP": [
+      {"TITLE": "最新動態", "URL": "/#archive"},
+      {"TITLE": "App Store", "URL": "https://apps.apple.com/app/seal-gallery"},
+      {"TITLE": "合作申請", "URL": "mailto:partnership@sealgallery.app"}
+    ]
+  }
   ],
 
   STARTER_FOOTER_BLOG_LATEST_TITLE: '最新文章',
