@@ -30,7 +30,7 @@ const CONFIG = {
 
   STARTER_NAV_BUTTON_2_TEXT: 'Sign Up',
   STARTER_NAV_BUTTON_2_URL: '/sign-up',  
-STARTER_NAV_BUTTON_2_URL：“/注册”
+  STARTER_NAV_BUTTON_2_URL：“/注册”,
 
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
