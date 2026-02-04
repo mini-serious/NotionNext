@@ -276,9 +276,8 @@ const CONFIG = {
     "TITLE": "關於我們",
     "LINK_GROUP": [
       {"TITLE": "首頁", "URL": "/#home"},
-      {"TITLE": "核心特性", "URL": "/#feature"},
-      {"TITLE": "價格方案", "URL": "/#pricing"},
-      {"TITLE": "常見問題", "URL": "/#faq"}
+      {"TITLE": "核心特性", "URL": "/#about"},
+      {"TITLE": "價格方案", "URL": "/#pricing"}
     ]
   },
   {
@@ -287,13 +286,13 @@ const CONFIG = {
       {"TITLE": "聯繫我們", "URL": "/#contact"},
       {"TITLE": "使用教程", "URL": "/archive"},
       {"TITLE": "隱私政策", "URL": "/privacy-policy"},
-      {"TITLE": "服務條款", "URL": "/terms-of-service"}
+      {"TITLE": "服務條款", "URL": "/terms-of-use"}
     ]
   },
   {
     "TITLE": "資源",
     "LINK_GROUP": [
-      {"TITLE": "最新動態", "URL": "/#archive"},
+      {"TITLE": "最新動態", "URL": "/archive"},
       {"TITLE": "App Store", "URL": "https://apps.apple.com/app/seal-gallery"},
       {"TITLE": "合作申請", "URL": "mailto:partnership@sealgallery.app"}
     ]
