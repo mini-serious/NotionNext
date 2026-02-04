@@ -29,7 +29,8 @@ const CONFIG = {
   STARTER_NAV_BUTTON_1_URL: '/sign-in',
 
   STARTER_NAV_BUTTON_2_TEXT: 'Sign Up',
-  STARTER_NAV_BUTTON_2_URL: '/sign-up',
+  STARTER_NAV_BUTTON_2_URL: '/sign-up',  
+STARTER_NAV_BUTTON_2_URL：“/注册”
 
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
@@ -258,7 +259,7 @@ const CONFIG = {
   //   STARTER_CONTACT_MSG_THANKS: '感谢您的留言',
 
   // 合作伙伴的图标
-  STARTER_BRANDS_ENABLE: true, // 合作伙伴开关
+  STARTER_BRANDS_ENABLE: false, // 合作伙伴开关
   STARTER_BRANDS: [
     {
       IMAGE: '',
